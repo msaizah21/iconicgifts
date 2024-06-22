@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Iconic Gift LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'><link rel="stylesheet" href="./about.css">
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="icon" href="images\Iconic Gifts Logo-01.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="footer.css">
+
+          
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+        <!---->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="footer.css">
+
+<style>
+    .sec-contact .btn, a {
+  transition: all 0.25s;
+}
+
+/*=Typography=*/
+html {
+  font-size: 16px;
+}
+
+
+.main-heading {
+  font-family: "Open sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  margin-bottom: 30px;
+}
+
+.main-heading {
+  font-family: "Open sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: auto;
+  height: 40px;
+  color: #fff;
+}
+
+.about-container > h1 {
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.sec-about a {
+  text-decoration: underline;
+}
+
+.sec-services h2,
+.sec-services p {
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.sec-contact .btn {
+  text-transform: uppercase;
+}
+
+.soc-media-ul a {
+  text-align: center;
+  text-decoration: none;
+}
+
+/*=Base=*/
+section {
+  padding: 5em 0;
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 485px) {
+  form {
+    max-width: 70%;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+hr {
+  margin-bottom: 3em;
+  width: 7%;
+}
+
+/*=Layout=*/
+.sec-folio .row {
+  margin-bottom: 3em;
+}
+
+.sec-folio img {
+  max-width: 100%;
+}
+
+
+
+
+/*Main*/
+.sec-main {
+  position: relative;
+  height: 560px;
+  background: url("images/creativity.avif") no-repeat center center;
+  background-size: cover;
+}
+.sec-main:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.main-heading {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: auto;
+  height: 40px;
+  color: #fff;
+}
+
+
+
+/*Services*/
+.sec-services {
+  background: #ffffff;
+}
+
+.sec-services i {
+  display: block;
+  margin: auto;
+  width: 45px;
+}
+
+.sec-services .fa-paint-brush {
+  width: 64px;
+}
+
+.sec-services .fa-code {
+  width: 68px;
+}
+
+.sec-services h2 {
+  margin: 1em 0;
+}
+
+
+/*Contact*/
+.sec-contact .form-control:focus {
+  border-color: #ad0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(173, 0, 0, 0.6);
+}
+
+.sec-contact .btn {
+  padding: 0.5rem 1.75rem;
+  background: #000;
+  font-size: 0.95rem;
+  color: #fff;
+}
+.sec-contact .btn:hover, .sec-contact .btn:focus {
+  background: #ad0000;
+  border-color: #7a0000;
+}
+
+
+/*Video Container*/
+.video-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 3%; /* 16:9 Aspect Ratio (h/w * 100) */
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    padding-top: 75%; /* Adjust aspect ratio for smaller screens */
+  }
+
+}
+
+
+@media (max-width: 767px) {
+  .video-container {
+    padding-bottom: 75%; /* Adjust aspect ratio for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .video-container {
+    padding-bottom: 56.25%; /* Reset aspect ratio for extra small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .video-container {
+    max-width: 90%; /* Further reduce width for very small screens */
+  }
+}
+
+@media (max-width: 360px) {
+  .video-container {
+    padding-bottom: 66.6667%; /* Adjust aspect ratio for even smaller screens */
+  }
+}
+
+
+
+/* */
+section.testimonial {
+background: #F6F4EF;
+}
+
+section .inner {
+max-width: 940px;
+margin: 0 auto;
+text-align: center;
+}
+section.testimonial .inner {
+padding-top: 50px;
+text-align: left;
+}
+
+
+section.testimonial #quote-wrapper {
+position: relative;
+min-height: 358px;
+padding-top: 40px;
+}
+
+section.testimonial blockquote {
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #666;
+font-size: 28px;
+line-height: 1.3em;
+padding-top: 1em;
+position: relative;
+z-index: 1;
+margin-bottom: 0.75em;
+}
+q, blockquote {
+quotes: none;
+}
+section.testimonial cite {
+font-size: 18px;
+color: #595756;
+font-weight: bold;
+margin: 2em 0;
+  margin-left: 38px;
+
+}
+#quote-quote a {
+color: #020202;
+text-decoration: none;
+}
+#quote-quote a:hover {
+color: #020202;
+text-decoration: underline;
+}
+
+section.testimonial #quote-wrapper.lisagor .portrait {
+background-repeat: no-repeat;
+background-size: 313px 329px;
+background-position: center center;
+width: 313px;
+height: 329px;
+}
+
+section.testimonial #quote-wrapper.cederholm .portrait {
+background-repeat: no-repeat;
+background-size: 275px 305px;
+background-position: center center;
+width: 275px;
+height: 40px;
+}
+
+
+section.testimonial blockquote::before {
+content: "“";
+color: #E0DDD7;
+font-family: georgia, serif;
+font-size: 6em;
+position: absolute;
+left: -0.25em;
+top: 0.35em;
+z-index: -10;
+}
+
+
+/* Meet */
+
+.sec-team {
+  padding: 5em 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.sec-team h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.sec-team hr {
+  margin: 1em auto 2em;
+  width: 10%;
+  border: 1px solid #ad0000;
+}
+
+.team-member {
+  background-color: #fff;
+  padding: 2em;
+  margin: 1em 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  border-radius: 50%;
+  margin-bottom: 1em;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.team-member p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 1em;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 0.5em;
+  color: #ad0000;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #000;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .sec-team {
+    padding: 3em 0;
+  }
+  .team-member {
+    padding: 1.5em;
+  }
+  .team-member img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* All team-member containers same size */
+.team-member {
+  min-height: 300px; /* Set a minimum height for all team-member containers */
+}
+
+
+
+
+
+</style>
+
+
+<header>
+  <nav>
+
+      <div class="middle-nav">
+          <div class="logo">
+              <img src="images\Iconic Logo-01.png" alt="Iconic Gifts Logo">
+          </div>
+
+          <div class="mid-nav-center">
+              <ul>
+                  <li> <a href="Index.html"> Home</a></li>
+                  <li> <a href="about.html"> About Us</a></li>
+                  <li> <a href="categories.html"> Categories</a></li>
+                  <li> <a href="catalogs.html"> Catalogs</a></li>
+                  <li> <a href="faq.html"> Questions</a></li>
+                  <li> <a href="contact.html"> Contact Us</a></li>
+              </ul>
+          </div>
+
+          <div class="mid-nav-right">
+           <ul>
+              <li> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+              <li> <a href="registered.html"><i class="fa-solid fa-user"></i></a></li>
+              <li> <a href=""> <i class="fa-brands fa-amazon"></i></a></li>
+              <li> <a href=""> <i class="fa-solid fa-cart-shopping"></i></a></li>
+
+           </ul>
+          </div>
+      </div>
+
+  </nav>
+</header>
+
+</head>
+<body>
+
+
+  <section id="home" class="sec-main">
+    <h1 class="main-heading">Where creativity happens.</h1>
+  </section>
+
+  <section id="about" class="sec-about">
+    <div class="about-container">
+      <h1>Our Profile</h1>
+      <hr />
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="video-container">
+            <video src="Iconic Official Video.mp4" controls autoplay width="100%"></video>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <p>Iconic gifts and uniforms is the one-stop shop where you can find the right corporate gifts and promotional giveaways to showcase your brand positively.</p>
+          <p>Our corporate gift collections present innovations with endless possibilities and are guaranteed to impress everyone.</p>
+          <p>We offer all types of corporate gifts, which can be personalized with your company logo. As a premium corporate gift’s supplier, we offer printing embroidery, tailoring, stitching, sublimation, heat transfer, bags and gifts etc., customized products at affordable prices to fit all budgets.</p>
+          <p>Our site offers a unique range of promotional and corporate gifts to guarantee the perfect gifting solutions for your clients or colleagues.</p>
+          <p>We help to build your organizations brand image. Our products are backed by the quick delivery and guaranteed quality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="services" class="sec-services">
+    <div class="container">
+      <h1>Services</h1>
+      <hr />
+      <div class="row">
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-paint-brush"></i>
+          <h2 class="h3">Screen printing</h2>
+          <p>High-quality screen printing services for t-shirts, bags, and more. We use durable inks and advanced techniques for vibrant, long-lasting prints.</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-print"></i>
+          <h2 class="h3">UV Printing</h2>
+          <p>UV printing offers precise, high-resolution printing on various materials. Our UV printing services ensure stunning results with sharp details and vivid colors.</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-fire"></i>
+          <h2 class="h3">Laser Engraving</h2>
+          <p>Precision laser engraving services for a wide range of materials, including wood, metal, and acrylic. Create personalized items with intricate designs and durable markings.</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-box"></i>
+          <h2 class="h3">Customized Box</h2>
+          <p>Customized box printing services for packaging solutions that stand out. We offer a range of box styles and materials to suit your needs.</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-tshirt"></i>
+          <h2 class="h3">Sublimation</h2>
+          <p>Sublimation printing services for vibrant, full-color designs on polyester fabrics. Ideal for sportswear, uniforms, and promotional items.</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-shopping-bag"></i>
+          <h2 class="h3">Customized Bags</h2>
+          <p>Customized bags for promotions, events, or retail. Choose from a variety of styles and materials to create the perfect custom bag for your needs.</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-user-tie"></i>
+          <h2 class="h3">Corporate uniforms</h2>
+          <p>Corporate uniform design and printing services for a professional look. We offer a range of styles and materials to suit your brand and budget.</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-flag"></i>
+          <h2 class="h3">Flags and Banners</h2>
+          <p>Flags and banners for events, promotions, or branding. We offer high-quality printing on durable materials for long-lasting results.</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-trophy"></i>
+          <h2 class="h3">Trophy</h2>
+          <p>Customized trophies and awards for recognition and appreciation. Choose from a variety of designs and materials to suit your needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    
+
+    
+    <section id="team" class="sec-team">
+      <div class="meet-container">
+        <h1>Meet Our Team</h1>
+        <hr />
+        <div class="row">
+          <div class="col-md-4">
+            <div class="team-member">
+              <img src="team-images\team1.jpeg" alt="Team Member 1" class="img-fluid">
+              <h3>Khawar Latif</h3>
+              <p>CEO or Founder</p>
+              <div class="social-links">
+                <a href="tel:+971552154242"><i class="fa fa-phone"></i></a>
+                <a href="https://wa.me/971552154242"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-member">
+              <img src="team-images\team2.jpeg" alt="Team Member 2" class="img-fluid">
+              <h3>Muhammad Infaz</h3>
+              <p>Graphic Designer</p>
+              <div class="social-links">
+                <a href="tel:+971553658362"><i class="fa fa-phone"></i></a>
+                <a href="https://wa.me/971553658362"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <img src="team-images\team4.jpeg" alt="Team Member 3" class="img-fluid">
+              <h3>Elavarasan Siralan </h3>
+              <p> Sales Executive</p>
+              <div class="social-links">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <img src="team-images\team3.jpg" alt="Team Member 4" class="img-fluid">
+              <h3> Aiza Sajid</h3>
+              <p>Website Developer</p>
+              <div class="social-links">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+  
+
+  <section class="testimonial">
+    <div class="inner">
+        <div class="cederholm" id="quote-wrapper">
+        <div class="quote">
+          <blockquote id="quote-quote"><a href="https://www.apollowebstudio.com">Iconic Gifts</a> 
+            has been our go-to for corporate gifting and promotional items. Their experienced team consistently finds unique, budget-friendly gifts. We highly recommend their excellent in-house printing and embroidery services for uniforms and coveralls."
+            .</blockquote>
+        </div>
+        <div class="portrait"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="sec-contact">
+    <div class="container">
+      <h1>Hire me</h1>
+      <hr />
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+          <form class="center-block" action="https://formspree.io/f/xeqyyzbq" method="POST">
+            <div class="form-group">
+              <label class="sr-only" for="inputName">Full name</label>
+              <input id="inputName" class="form-control" type="text" placeholder="Adam Smith" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="inputMail" class="sr-only">Email Address</label>
+              <input id="inputMail" class="form-control" type="email" placeholder="adam.smith@mail.com" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="jobTitle">Job Title</label>
+              <select id="jobTitle" class="form-control" name="jobTitle" required>
+                <option value="">Select Job Title</option>
+                <option value="sales">Sales</option>
+                <option value="marketing">Marketing</option>
+                <option value="design">Design</option>
+                <option value="development">Development</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="inputMessage" class="sr-only">Your Message</label>
+              <textarea id="inputMessage" class="form-control" name="message" cols="30" rows="8" required></textarea>
+            </div>
+            <div class="form-group">
+              <label for="cvFile">Attach CV</label>
+              <input type="file" id="cvFile" class="form-control-file" name="cv" accept=".pdf,.doc,.docx" />
+            </div>
+            <div class="form-group">
+              <button class="btn btn-default center-block" type="submit" value="Hire me">Hire me</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="container">
+        <!-- CTA Section -->
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30 d-flex align-items-center">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>Al Haramain Bldg 10 Ajman Industrial 1, Ajman, UAE</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <a href="callto:971552153242" target="_blank" rel="noopener noreferrer">971552154242</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <a href="mailto:Khawar@iconicgifts.ae">Khawar@iconicgifts.ae</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Content Section -->
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html"><img src="images\Iconic White Logo-01.png" class="img-fluid" alt="Iconic Gifts Logo"></a>
+                </div>
+                <div class="footer-text">
+                  <p>We are the one-stop where you can find the right corporate gifts and promotional giveaways to showcase your brand positively.</p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="https://shorturl.at/cclAs" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="https://www.instagram.com/iconic_gifts_/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram instagram-bg"></i></a>
+                  <a href="https://shorturl.at/CuMOK" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin linkedin-bg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Categories</a></li>
+                  <li><a href="#">Catalogs</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Expert Team</a></li>
+                  <li><a href="#">Latest News</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="https://formspree.io/f/xrgnnllo" method="post">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <button type="submit"><i class="fab fa-telegram-plane"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright Area -->
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>Copyright &copy; 2022, All Right Reserved <a href="#">Iconic Gifts L.L.C</a></p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script><script  src="./about.js"></script>
+<script src="nav.js"></script>
+
+</body>
+</html>
